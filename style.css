@@ -10,7 +10,7 @@ h1 {
   font-size: 54px;  
 }
 
-p, #time-left {
+p, #time-left, #break-length, #session-length {
   font-size: 32px;
 }
 
