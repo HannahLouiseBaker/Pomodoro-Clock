@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pomodoro Clock</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS for styling and layout-->
+    <link rel="stylesheet" href=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--CSS Style Sheet-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <main>
+      <audio id="beep" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/success.mp3" type="audio/mp3">
+      </audio>
+      <!--Main Container-->
+      <div id="pomodoro-clock" class="container">
+        <!--Title Row-->
+        <div class="row">
+          <div id="title" class="col text-center">
+            <h1>Pomodoro Clock</h1>
+          </div>  
+        </div>  
+        <!--Length Row-->
+        <div id="length-row" class="row">
+          <!--Break Length Column-->
+          <div id="break-col" class="col">
+            <div class="row">
+              <div id="break-label" class="col text-center">
+                <p>Break Length</p>
+              </div>  
+            </div>  
+            <div class="row adjust-row">
+              <div id="break-decrement" class="col btn">
+                <i class="fas fa-arrow-down"></i>
+              </div> 
+              <div id="break-length" class="col text-center">
+                <p>5</p>
+              </div> 
+              <div id="break-increment" class="col btn">
+                <i class="fas fa-arrow-up"></i>
+              </div>           
+            </div>         
+          </div> 
+          <!--Session Length Column-->
+          <div id="session-col" class="col">
+            <div class="row">
+              <div id="session-label" class="col text-center">
+                <p>Session Length</p>
+              </div>  
+            </div>  
+            <div class="row adjust-row">
+              <div id="session-decrement" class="col btn">
+                <i class="fas fa-arrow-down"></i>
+              </div> 
+              <div id="session-length" class="col text-center">
+                <p>25</p>
+              </div> 
+              <div id="session-increment" class="col btn">
+                <i class="fas fa-arrow-up"></i>
+              </div>           
+            </div>         
+          </div>  
+        </div>  
+        <!--Display Row-->
+        <div id="display" class="row">
+          <div class="col">
+            <div class="row">
+              <div id="timer-label" class="col text-center">
+                <p>Session</p>
+              </div>
+            </div>
+            <div class="row">
+              <div id="time-left" class="col text-center">
+                <!--<p>25:00</p>-->
+
+              </div>        
+            </div>  
+          </div>  
+        </div>  
+        <!--Controls Row-->
+        <div id="controls" class="row">
+          <div id="start_stop" class="col btn">
+            <i class="fas fa-play"></i>
+            <i class="fas fa-pause"></i>
+          </div>  
+          <div id="reset" class="col btn">
+            <i class="fas fa-sync"></i>
+          </div>      
+        </div>  
+      </div>  
+    </main>  
+    <!--Load jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
+
+    <!-- Link to JavaScript file -->
+    <script src="main.js"></script>
+  </body>
+
+</html>
