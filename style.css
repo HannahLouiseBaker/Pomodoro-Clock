@@ -56,7 +56,7 @@ p, #time-left {
 @media (max-width: 600px) {
   main {
     height: 100%;
-    padding: 0 0 200px 0;
+    padding: 0 0 600px 0;
   }  
 }
 
