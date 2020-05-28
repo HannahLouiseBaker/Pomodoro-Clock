@@ -48,8 +48,6 @@ p, #time-left {
 }
 
 @media (max-width: 710px) {
-
-  
   #length-row {
     width: 250px;
   }
@@ -58,6 +56,7 @@ p, #time-left {
 @media (max-width: 600px) {
   main {
     height: 100%;
+    padding: 0 0 200px 0;
   }  
 }
 
