@@ -1,0 +1,68 @@
+main {
+  height: 100vh;
+  padding: 80px;
+  margin: auto;
+  color: white;
+  background-color: #16EBF3;
+}
+
+h1 {
+  font-size: 54px;  
+}
+
+p, #time-left {
+  font-size: 32px;
+}
+
+.fas {
+  padding: 10px 0;
+  font-size: 20px;
+  color: white;
+}
+
+#title {
+  padding: 40px;
+}
+
+#controls {
+  width: 200px;
+  margin: auto;
+}
+
+#display {
+  width: 200px;
+  border: solid white 8px;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 40px auto;
+}
+
+.adjust-row {
+  width: 200px;
+  margin: auto;
+}
+
+#length-row {
+  width: 500px;
+  margin: auto;
+}
+
+@media (max-width: 710px) {
+
+  
+  #length-row {
+    width: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    height: 100%;
+  }  
+}
+
+@media (max-height: 700px) {
+  main {
+    height: 100%;
+  }
+}
