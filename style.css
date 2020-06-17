@@ -7,7 +7,7 @@ main {
 }
 
 h1 {
-  font-size: 54px;  
+  font-size: 54px;
 }
 
 p, #time-left, #break-length, #session-length, #timer-label {
@@ -29,6 +29,11 @@ p, #time-left, #break-length, #session-length, #timer-label {
   padding: 40px;
 }
 
+#session-length, #break-length {
+  height: 40px;
+  padding: 0 0 50px 0;
+}
+
 #controls {
   width: 200px;
   margin: auto;
@@ -40,6 +45,16 @@ p, #time-left, #break-length, #session-length, #timer-label {
   border-radius: 8px;
   padding: 20px;
   margin: 40px auto;
+}
+
+#time-left {
+  height: 40px;
+  padding: 0 0 50px 0;
+}
+
+#timer-label {
+  height: 40px;
+  padding: 0 0 50px 0;
 }
 
 .adjust-row {
@@ -56,13 +71,11 @@ p, #time-left, #break-length, #session-length, #timer-label {
   #length-row {
     width: 250px;
   }
-}
 
-@media (max-width: 600px) {
   main {
     height: 100%;
-    padding: 0 0 600px 0;
-  }  
+    padding: 0 0 60px 0;
+  }
 }
 
 @media (max-height: 700px) {
